@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Timestamp Microservice | freeCodeCamp.org</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <!-- Підключення стилів з public/styles.css -->
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Timestamp Microservice</h1>
+      <hr />
+
+      <section class="usage">
+        <h2>Приклад використання</h2>
+        <ul>
+          <li>
+            <a href="/api/2015-12-25">[project url]/api/2015-12-25</a>
+          </li>
+          <li>
+            <a href="/api/1451001600000">[project url]/api/1451001600000</a>
+          </li>
+          <li>
+            <a href="/api">[project url]/api (поточний час)</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="example">
+        <h2>Приклад відповіді</h2>
+        <p>
+          <code>
+            {"unix": 1451001600000, "utc": "Fri, 25 Dec 2015 00:00:00 GMT"}
+          </code>
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p>
+          By
+          <a href="https://www.freecodecamp.org/" target="_blank" rel="noreferrer">
+            freeCodeCamp.org
+          </a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
